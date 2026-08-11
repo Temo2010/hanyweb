@@ -1403,9 +1403,9 @@ export const content: Record<Lang, Content> = {
     metrics: {
       heading: "Враження, які варто запам'ятати",
       items: [
-        { label: "щасливих клієнтів", value: "20,000+" },
+        { label: "щасливих клієнтів", value: "100,000+" },
         { label: "мов", value: "2" },
-        { label: "міст", value: "100+" },
+        { label: "лет досвіду", value: "20+" },
         { label: "середня оцінка", value: "4.9" },
       ],
     },
