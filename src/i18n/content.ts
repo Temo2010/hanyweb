@@ -998,7 +998,7 @@ export const content: Record<Lang, Content> = {
       categories: [
         {
           id: "ancient",
-          name: "Pharaonic Cairo",
+          name: "Ancient Cairo",
           desc: "Pyramids, treasures, and the grandeur of the pharaohs.",
           places: [
             { name: "Giza Pyramids", note: "Symbols of eternity" },
@@ -1212,7 +1212,7 @@ export const content: Record<Lang, Content> = {
       categories: [
         {
           id: "ancient",
-          name: "Древний Египет",
+          name: "Древний Каир",
           desc: "Пирамиды, сокровища и величие фараонов.",
           places: [
             { name: "Пирамиды Гизы", note: "Символы вечности" },
@@ -1425,7 +1425,7 @@ export const content: Record<Lang, Content> = {
       categories: [
         {
           id: "ancient",
-          name: "Стародавній Єгипет",
+          name: "Стародавній Каїр",
           desc: "Піраміди, скарби й велич фараонів.",
           places: [
             { name: "Піраміди Гізи", note: "Символи вічності" },
