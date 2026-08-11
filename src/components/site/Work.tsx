@@ -6,7 +6,7 @@ import coptic from "@/assets/cat-coptic.jpg";
 import bazaar from "@/assets/tour-bazaar.jpg";
 import museum from "@/assets/tour-museum.jpg";
 import nile from "@/assets/tour-nile.jpg";
-import type { TourCategory } from "@/i18n/content";
+import { en_tours_items, type TourCategory } from "@/i18n/content";
 import { cn } from "@/lib/utils";
 import { Building2, Church, Landmark, MapPinned, Moon, type LucideIcon } from "lucide-react";
 const tourImages = [ancient, coptic, bazaar, museum, nile, bazaar, coptic];
@@ -23,13 +23,21 @@ const tourCategoryIcons: Record<TourFilter, LucideIcon> = {
   modern: Building2,
 };
 
+const englishFallbackTourIndexes = new Set([
+  4, 7, 12, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
+]);
+
 export function Tours() {
-  const { t } = useLang();
+  const { lang, t } = useLang();
   const phoneRaw = t.contact?.phone ?? "";
   const waNumber = String(phoneRaw).replace(/\D/g, "");
+  const tourItems =
+    lang === "en"
+      ? t.tours.items
+      : [...t.tours.items, ...en_tours_items.filter((_, index) => englishFallbackTourIndexes.has(index))];
 
   const [activeCategory, setActiveCategory] = useState<TourFilter>("all");
-  const categoryCounts = t.tours.items.reduce<Record<TourFilter, number>>(
+  const categoryCounts = tourItems.reduce<Record<TourFilter, number>>(
     (counts, item) => {
       counts.all += 1;
       counts[item.category] += 1;
@@ -37,7 +45,7 @@ export function Tours() {
     },
     { all: 0, ancient: 0, coptic: 0, islamic: 0, modern: 0 },
   );
-  const trips = t.tours.items
+  const trips = tourItems
     .map((item, i) => ({ item, i, category: item.category }))
     .filter(({ category }) => activeCategory === "all" || category === activeCategory);
 
