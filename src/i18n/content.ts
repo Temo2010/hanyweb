@@ -1006,9 +1006,9 @@ export const content: Record<Lang, Content> = {
     metrics: {
       heading: "Experiences Worth Remembering",
       items: [
-        { label: "happy clients", value: "20,000+" },
+        { label: "happy clients", value: "100,000+" },
         { label: "languages", value: "2" },
-        { label: "cities", value: "100+" },
+        { label: "years of experience", value: "20+" },
         { label: "average rating", value: "4.9" },
       ],
     },
@@ -1091,7 +1091,7 @@ export const content: Record<Lang, Content> = {
       ],
     },
     tours: {
-      label: "Featured Tours",
+      label: "All Tours",
       heading: "Choose Your Tour",
       book: "Book with Hany",
       cta: "Private Tours",
@@ -1220,9 +1220,9 @@ export const content: Record<Lang, Content> = {
     metrics: {
       heading: "Впечатления, которые стоит запомнить",
       items: [
-        { label: "счастливых клиентов", value: "20,000+" },
+        { label: "счастливых клиентов", value: "100,000+" },
         { label: "языков", value: "2" },
-        { label: "городов", value: "100+" },
+        { label: "лет опыта", value: "20+" },
         { label: "средняя оценка", value: "4.9" },
       ],
     },
