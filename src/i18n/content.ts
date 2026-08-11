@@ -102,16 +102,6 @@ const ru_tours_items = [
       "• Древняя столица Египта.\n• Археологические руины возле современного Мит-Рахины.\n• Важный исторический центр раннего Египта.",
   },
   {
-    title: "Древний Египет",
-    category: "ancient" as TourCategory,
-    tags: ["Древний Египет"],
-    alt: "Древний Египет — музей и пирамиды",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Pyramids_of_Giza_from_Grand_Egyptian_Museum.jpg",
-    shortDescription: "Комплексный тур по пирамидам и музеям древней цивилизации.",
-    description:
-      "• Большой Египетский музей + пирамиды Гизы\n• Египетский музей (старый) + пирамиды Гизы\n• Саккара + Дахшур\n• Конечно, есть и другие места, но пока они не включены в программу.",
-  },
-  {
     title: "Коптский и исламский Каир",
     category: "coptic" as TourCategory,
     tags: ["Коптский и исламский Каир"],
@@ -313,16 +303,6 @@ const uk_tours_items = [
     shortDescription: "Давня столиця Єгипту з багатою археологічною спадщиною.",
     description:
       "• Давня столиця Єгипту.\n• Археологічні руїни біля сучасного Міт-Рахіни.\n• Важливий історичний центр раннього Єгипту.",
-  },
-  {
-    title: "Стародавній Єгипет",
-    category: "ancient" as TourCategory,
-    tags: ["Стародавній Єгипет"],
-    alt: "Стародавній Єгипет — музей і піраміди",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Pyramids_of_Giza_from_Grand_Egyptian_Museum.jpg",
-    shortDescription: "Комплексний тур пірамідами та музеями давньої цивілізації.",
-    description:
-      "• Великий Єгипетський музей + піраміди Гізи\n• Єгипетський музей (старий) + піраміди Гізи\n• Саккара + Дахшур\n• Звісно, є й інші місця, але поки що вони не включені до програми.",
   },
   {
     title: "Коптський та ісламський Каїр",
@@ -556,16 +536,6 @@ const en_tours_items = [
     shortDescription: "The richly decorated tomb of the Old Kingdom vizier Mereruka in Saqqara.",
     description:
       "• One of the best-preserved private tombs of the Old Kingdom.\n• Famous for its vivid relief scenes of ancient life.\n• A unique glimpse into pharaonic court culture.",
-  },
-  {
-    title: "Ancient Egypt",
-    category: "ancient" as TourCategory,
-    tags: ["Ancient Egypt"],
-    alt: "Ancient Egypt — museum and pyramids",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Pyramids_of_Giza_from_Grand_Egyptian_Museum.jpg",
-    shortDescription: "A comprehensive tour covering the pyramids and museums of ancient civilization.",
-    description:
-      "• Grand Egyptian Museum + Giza Pyramids\n• Egyptian Museum (old) + Giza Pyramids\n• Saqqara + Dahshur\n• There are other sites too, but they are not yet included in the programme.",
   },
   {
     title: "Coptic & Islamic Cairo",
