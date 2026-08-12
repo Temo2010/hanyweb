@@ -1,0 +1,1 @@
+Patch: change Ukrainian nav.tours and tours.heading to 'Excursions' in src/i18n/content.ts

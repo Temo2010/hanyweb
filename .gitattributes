@@ -1,0 +1,4 @@
+# Normalize lockfiles and package manifests across platforms
+*.lock text eol=lf
+package.json text eol=lf
+package-lock.json text eol=lf
